@@ -20,7 +20,6 @@ contract JointSavings{
     - A `uint` variable named `amount`
     - A `payable address` named `recipient`
     */
-
     function withdraw(uint amount, address payable recipient) public {
 
         //Define a `require` statement that checks if the `recipient` is equal to either `accountOne` or `accountTwo`. 
